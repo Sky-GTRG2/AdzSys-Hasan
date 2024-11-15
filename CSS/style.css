@@ -977,7 +977,7 @@ iframe{
     margin-left: 10%;
     position: relative;
     top: 60px;
-    left: -140px;
+    left: -110px;
     box-shadow:  20px 20px 60px #7c7c7c,
              -20px -20px 60px #9b9b9b;
 }
@@ -998,6 +998,7 @@ iframe{
 .ket label{
     background-color: rgb(172, 172, 172);
     padding: 10px;
+    font-family: "Nunito", sans-serif;
 }
 input[type=text], select, textarea ,input[type=email] {
     width: 70%;
@@ -1008,19 +1009,21 @@ input[type=text], select, textarea ,input[type=email] {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: "Nunito", sans-serif;
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #ffca4f;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+        
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: tomato;
   }
 
 
